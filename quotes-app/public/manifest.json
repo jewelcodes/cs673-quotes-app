@@ -1,0 +1,7 @@
+{
+  "short_name": "Quotes",
+  "name": "Quotes app for MET CS 673",
+  "display": "standalone",
+  "theme_color": "#141414",
+  "background_color": "#141414"
+}
