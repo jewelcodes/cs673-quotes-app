@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
+import QuoteBody from './components/QuoteBody/QuoteBody.tsx';
 
 function App() {
+    let [ quote, setQuote ] = useState("Loading...");
+
     return (
-        <h1>Hello world</h1>
+        <QuoteBody quote={quote} />
     )
 }
 

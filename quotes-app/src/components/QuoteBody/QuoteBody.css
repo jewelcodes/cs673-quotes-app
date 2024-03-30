@@ -1,0 +1,11 @@
+.quoteBody {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7em;
+    text-align: center;
+}
+
+.quoteBody h1 {
+    margin: 0;
+    padding: 0;
+}
