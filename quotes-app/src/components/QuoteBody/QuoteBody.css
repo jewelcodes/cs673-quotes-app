@@ -15,4 +15,21 @@
     margin: 0.5em;
     padding: 0;
     font-size: 1.2em;
+    opacity: 0.8;
+}
+
+/* MOBILE/TABLET RULES */
+
+@media screen and (max-width: 1023px) {
+    .quoteBody {
+        padding: 7em 1em;
+    }
+
+    .quoteBody h1 {
+        font-size: 1.3em;
+    }
+
+    .quoteBody h2 {
+        font-size: 1em;
+    }
 }
