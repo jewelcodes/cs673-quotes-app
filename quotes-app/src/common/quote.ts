@@ -8,18 +8,22 @@ export async function randomQuote() {
 
     let json = await response.json();
     currentQuote = json[0].quote;
+    currentAuthor = json[0].author;
     return json[0].quote;
 }
 
 let currentQuote:string;
+let currentAuthor:string;
+
 export function getCurrentQuote() {
     return currentQuote;
 }
 
 let first:boolean = false;
-export async function initial(callback:any) {
+export async function initial(quote:any, author:any) {
     if(first) return;
     first = true;
-    callback(await randomQuote());
+    quote(await randomQuote());
+    author(currentAuthor);
     //callback("test");
 }
