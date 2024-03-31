@@ -27,3 +27,8 @@ export async function initial(quote:any, author:any) {
     author(currentAuthor);
     //callback("test");
 }
+
+export async function newQuote(quote:any, author:any) {
+    quote(await randomQuote());
+    author(currentAuthor);
+}

@@ -1,6 +1,16 @@
 .footer {
-    font-family: "Courier New", Menlo, monospace;
+    font-family: Menlo, "Courier New", monospace;
     text-align: center;
     box-sizing: border-box;
     width: 100%;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    user-select: none;
+    line-height: 150%;
+}
+
+.footer label, .footer a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: inherit;
 }
