@@ -14,7 +14,7 @@ function App() {
     return (
         <>
             <QuoteBody quote={quote} author={author} />
-            <Footer handler={setQuote} />
+            <Footer quoteHandler={setQuote} authorHandler={setAuthor} />
         </>
     )
 }
